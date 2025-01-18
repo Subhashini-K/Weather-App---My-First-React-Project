@@ -1,0 +1,103 @@
+.weather-container{   
+    width:500px;
+    background-color: #7E60BF;
+    border-radius: 30px;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(133, 6, 147, 0.3) 10px 10px, rgba(161, 37, 174, 0.955) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap:10px;
+    padding-bottom: 20px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    
+}
+.input input{
+    height:50px;
+    border-radius: 30px;
+    width:60%;
+    border:none;
+    padding-left: 10px;
+    font-size: large;
+    flex-grow: 1;
+    outline: none;
+}
+.search img{
+    padding:15px;
+    cursor: pointer;
+}
+.weather-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.temperature{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    margin:0px;
+}
+.temperature h1{
+    margin: 0px;
+    font-weight: 500;
+    color:#fff;
+    font-size: 70px;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    margin:0px;
+}
+.location h1{
+    margin:0px;
+    font-weight:400;
+    color:#fff;
+    font-size:50px;
+    margin-top: -15px;
+    padding-bottom:10px;
+}
+.humidity{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding-left: 30px;
+}
+.humidity-description h3{
+    margin:0px;
+    color:#fff;
+    font-weight: 400;   
+}
+.wind-speed{
+    display: flex;
+    align-items:center;
+    gap:10px;
+    padding-right:30px;
+}
+.wind-description h3{
+    margin:0px;
+    color:#fff;
+    font-weight: 400;
+}
+.coords{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}

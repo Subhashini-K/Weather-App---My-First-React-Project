@@ -1,0 +1,9 @@
+.main{
+  height:100vh;
+  width:100vw;
+  background-color: #E4B1F0;
+  margin:0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

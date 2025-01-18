@@ -7,7 +7,7 @@ This is a simple Weather App built using React and the OpenWeatherMap API. It al
 🌡️ Display key details like temperature, humidity, and weather conditions.
 🔄 Responsive design for a seamless experience across devices.
 
-#Tech Stack
+#Tech Stack:
 Frontend: React, HTML, CSS
 API: OpenWeatherMap API
 Styling: CSS 

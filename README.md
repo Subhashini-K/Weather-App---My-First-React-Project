@@ -1,4 +1,4 @@
-Weather App - My First React Project🌦️
+🌦️Weather App - My First React Project : 
 This is a simple Weather App built using React and the OpenWeatherMap API. It allows users to search for the current weather conditions of any city worldwide.
 
 Features: 

@@ -65,7 +65,7 @@ const Weather = () => {
     <div className="weather-container">
       <div className="input-container">
         <div className="input">
-          <input ref={inputRef} type="text" placeholder="Search"></input>
+          <input ref={inputRef} type="text" placeholder="Enter city name"></input>
         </div>
         <div className="search">
           <img
